@@ -1500,89 +1500,131 @@
         </p>
 
 
-        <div class="contact-grid">
+        <!-- CONTACT FORM -->
+
+        <form class="contact-form"
+              action="YOUR_FORM_ENDPOINT"
+              method="POST">
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                    >
+
+                </div>
 
 
-            <a href="mailto:ghadi.sachin.sachin37@gmail.com"
-               class="contact-card">
+                <div class="form-group">
 
-                <span>
-                    EMAIL
-                </span>
+                    <label for="email">
+                        Email
+                    </label>
 
-                <strong>
-                    ghadi.XXXXXX.XXXXXXXX@gmail.com
-                </strong>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="your@email.com"
+                        required
+                    >
 
-            </a>
-
-
-            <a href="tel:+918655520437"
-               class="contact-card">
-
-                <span>
-                    PHONE
-                </span>
-
-                <strong>
-                    +91 86XXX XXXXX
-                </strong>
-
-            </a>
-
-
-            <div class="contact-card">
-
-                <span>
-                    LOCATION
-                </span>
-
-                <strong>
-                    Navi Mumbai, Maharashtra, India
-                </strong>
+                </div>
 
             </div>
 
-        </div>
+
+            <div class="form-group">
+
+                <label for="subject">
+                    Subject
+                </label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="How can I help?"
+                    required
+                >
+
+            </div>
 
 
-        <div class="social-links">
+            <div class="form-group">
 
-            <a href="https://linkedin.com/in/sachinghadi"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="social-btn">
+                <label for="message">
+                    Message
+                </label>
 
-                LinkedIn ↗
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="7"
+                    placeholder="Tell me about your project, opportunity or idea..."
+                    required
+                ></textarea>
 
-            </a>
-
-
-            <a href="https://github.com/GhadiSachin"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="social-btn">
-
-                GitHub ↗
-
-            </a>
+            </div>
 
 
-            <a href="mailto:ghadi.sachin.sachin37@gmail.com"
-               class="social-btn primary-social">
+            <button
+                type="submit"
+                class="btn btn-primary contact-submit">
 
-                Email Me →
+                Send Message →
 
-            </a>
+            </button>
+
+        </form>
+
+
+        <!-- PUBLIC CONTACT OPTIONS -->
+
+        <div class="contact-alternatives">
+
+            <p class="eyebrow">
+                OR CONNECT WITH ME
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://linkedin.com/in/sachinghadi"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-btn">
+
+                    LinkedIn ↗
+
+                </a>
+
+
+                <a href="https://github.com/GhadiSachin"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-btn">
+
+                    GitHub ↗
+
+                </a>
+
+            </div>
 
         </div>
 
     </div>
 
 </section>
-
-</main>
-
 
 <!-- ================= FOOTER ================= -->
 
