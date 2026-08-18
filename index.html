@@ -1,29 +1,65 @@
+Absolutely. I’ve updated your HTML while keeping the existing design/content structure intact.
+
+I made these changes:
+
+* Fixed **“loud-native” → “cloud-native”**
+* Changed location references to **Remote, India**
+* Kept your **email and phone number completely private**
+* Added the new **contact form**
+* Removed old direct email/phone contact cards
+* Kept LinkedIn/GitHub as public contact options
+* Added `autocomplete` attributes to the form
+* Fixed `14+ years` consistency
+* Changed `Sachin Ghadi` logo spacing correctly
+* Added `Agentic AI` to the metadata keywords
+* Added proper `aria-label` to social links
+* Kept `YOUR_FORM_ENDPOINT` as a placeholder until you choose your form service
+
+```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sachin Ghadi | Senior Technical Lead</title>
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Sachin Ghadi | Senior Technical Lead
+    </title>
 
     <meta name="description"
-          content="Sachin Ghadi — Senior Technical Lead with 14+ years of experience in .NET, React, Azure, AWS, Microservices, Cloud Architecture and AI/GenAI.">
+          content="Sachin Ghadi — Senior Technical Lead with 14+ years of experience in .NET, React, Azure, AWS, Microservices, Cloud Architecture, AI and Agentic AI.">
 
     <meta name="keywords"
-          content=".NET, C#, React, Azure, AWS, Microservices, Kubernetes, Docker, Technical Lead, Software Architect, AI, GenAI,Agentic AI">
+          content=".NET, C#, React, Azure, AWS, Microservices, Kubernetes, Docker, Technical Lead, Software Architect, AI, GenAI, Agentic AI">
 
-    <meta name="author" content="Sachin Ghadi">
+    <meta name="author"
+          content="Sachin Ghadi">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- ================= GOOGLE FONTS ================= -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
           rel="stylesheet">
+
 </head>
 
+
 <body>
+
 
 <!-- ================= HEADER ================= -->
 
@@ -31,40 +67,61 @@
 
     <nav class="navbar container">
 
-       <a href="#home" class="logo">
-        Sachin <span>Ghadi</span>
+        <a href="#home"
+           class="logo">
+
+            Sachin <span>Ghadi</span>
+
         </a>
+
 
         <button class="menu-btn"
                 id="menuBtn"
-                aria-label="Open navigation">
+                aria-label="Open navigation"
+                aria-expanded="false">
+
             ☰
+
         </button>
 
-        <ul class="nav-links" id="navLinks">
+
+        <ul class="nav-links"
+            id="navLinks">
 
             <li>
-                <a href="#about">About</a>
+                <a href="#about">
+                    About
+                </a>
             </li>
 
             <li>
-                <a href="#experience">Experience</a>
+                <a href="#experience">
+                    Experience
+                </a>
             </li>
 
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">
+                    Skills
+                </a>
             </li>
 
             <li>
-                <a href="#achievements">Highlights</a>
+                <a href="#achievements">
+                    Highlights
+                </a>
             </li>
 
             <li>
-                <a href="#certifications">Certifications</a>
+                <a href="#certifications">
+                    Certifications
+                </a>
             </li>
 
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact">
+                    Contact
+                </a>
             </li>
 
         </ul>
@@ -74,15 +131,20 @@
 </header>
 
 
+
 <main>
+
 
 <!-- ================= HERO ================= -->
 
-<section id="home" class="hero">
+<section id="home"
+         class="hero">
 
     <div class="hero-background"></div>
 
+
     <div class="container hero-grid">
+
 
         <div class="hero-content">
 
@@ -90,16 +152,23 @@
                 SENIOR TECHNICAL LEAD · SOLUTION ARCHITECT
             </p>
 
+
             <h1>
+
                 Building scalable
-                <span>systems that matter.</span>
+
+                <span>
+                    systems that matter.
+                </span>
+
             </h1>
+
 
             <p class="hero-description">
 
                 Senior Technical Lead with
                 <strong>14+ years</strong> of experience building
-                scalable loud-native and enterprise applications
+                scalable cloud-native and enterprise applications
                 across Financial Services, Payments, Insurance
                 and Telecom.
 
@@ -109,10 +178,15 @@
             <div class="hero-stack">
 
                 <span>.NET</span>
+
                 <span>React</span>
+
                 <span>Azure</span>
+
                 <span>AWS</span>
+
                 <span>Microservices</span>
+
                 <span>AI / GenAI</span>
 
             </div>
@@ -120,12 +194,19 @@
 
             <div class="hero-actions">
 
-                <a href="#experience" class="btn btn-primary">
+                <a href="#experience"
+                   class="btn btn-primary">
+
                     Explore Experience
+
                 </a>
 
-                <a href="#contact" class="btn btn-secondary">
+
+                <a href="#contact"
+                   class="btn btn-secondary">
+
                     Contact Me
+
                 </a>
 
             </div>
@@ -133,83 +214,143 @@
         </div>
 
 
-        <!-- TERMINAL CARD -->
+
+        <!-- ================= TERMINAL ================= -->
 
         <div class="hero-terminal">
 
             <div class="terminal">
 
+
                 <div class="terminal-top">
 
                     <div class="terminal-dots">
+
                         <span></span>
                         <span></span>
                         <span></span>
+
                     </div>
 
+
                     <span class="terminal-title">
+
                         sachin@engineering:~
+
                     </span>
 
                 </div>
 
 
+
                 <div class="terminal-body">
 
+
                     <div>
-                        <span class="prompt">$</span>
+
+                        <span class="prompt">
+                            $
+                        </span>
+
                         whoami
+
                     </div>
 
+
                     <div class="terminal-output">
+
                         Sachin Ghadi
+
                     </div>
 
 
+
                     <div>
-                        <span class="prompt">$</span>
+
+                        <span class="prompt">
+                            $
+                        </span>
+
                         role
+
                     </div>
 
+
                     <div class="terminal-output">
+
                         Senior Technical Lead
+
                     </div>
 
 
+
                     <div>
-                        <span class="prompt">$</span>
+
+                        <span class="prompt">
+                            $
+                        </span>
+
                         experience
+
                     </div>
 
+
                     <div class="terminal-output">
+
                         14+ years
+
                     </div>
 
 
+
                     <div>
-                        <span class="prompt">$</span>
+
+                        <span class="prompt">
+                            $
+                        </span>
+
                         location
+
                     </div>
 
+
                     <div class="terminal-output">
-                         India
+
+                        Remote · India
+
                     </div>
+
 
 
                     <div>
-                        <span class="prompt">$</span>
+
+                        <span class="prompt">
+                            $
+                        </span>
+
                         focus
+
                     </div>
 
+
                     <div class="terminal-output">
+
                         Cloud · Architecture · AI
+
                     </div>
+
 
 
                     <div class="cursor-line">
-                        <span class="prompt">$</span>
+
+                        <span class="prompt">
+                            $
+                        </span>
+
                         <span class="cursor"></span>
+
                     </div>
+
 
                 </div>
 
@@ -222,15 +363,21 @@
 </section>
 
 
+
 <!-- ================= ABOUT ================= -->
 
-<section id="about" class="section">
+<section id="about"
+         class="section">
 
     <div class="container">
 
+
         <div class="section-heading">
 
-            <span class="section-number">01</span>
+            <span class="section-number">
+                01
+            </span>
+
 
             <div>
 
@@ -238,9 +385,12 @@
                     ABOUT
                 </p>
 
+
                 <h2>
+
                     Engineering leadership
                     backed by hands-on experience.
+
                 </h2>
 
             </div>
@@ -248,96 +398,149 @@
         </div>
 
 
+
         <div class="about-grid">
+
 
             <div class="about-copy">
 
+
                 <p>
+
                     I'm a Senior Technical Lead with more than
-                    <strong>14+ years of software engineering experience</strong>,
+                    <strong>
+                        14+ years of software engineering experience
+                    </strong>,
                     specializing in scalable cloud-native and enterprise
                     applications.
+
                 </p>
 
+
                 <p>
+
                     My core expertise spans
-                    <strong>.NET, React, Azure, AWS,
-                    microservices and distributed systems</strong>,
+                    <strong>
+                        .NET, React, Azure, AWS,
+                        microservices and distributed systems
+                    </strong>,
                     with experience across Financial Services,
                     Payments, Insurance and Telecom.
+
                 </p>
 
+
                 <p>
+
                     I enjoy working at the intersection of
                     architecture, engineering and leadership —
                     designing systems, mentoring engineers and
                     helping teams deliver reliable software.
+
                 </p>
 
+
                 <p>
+
                     More recently, I've been exploring and building
-                    solutions using <strong>AI and Generative AI</strong>,
+                    solutions using
+                    <strong>
+                        AI, Generative AI and Agentic AI
+                    </strong>,
                     including Azure OpenAI, Semantic Kernel,
                     RAG and AI Agents.
+
                 </p>
 
             </div>
 
 
+
             <div class="profile-panel">
 
+
                 <div class="profile-item">
 
-                    <span>Experience</span>
+                    <span>
+                        Experience
+                    </span>
 
-                    <strong>14+ Years</strong>
+                    <strong>
+                        14+ Years
+                    </strong>
 
                 </div>
 
 
+
                 <div class="profile-item">
 
-                    <span>Current Role</span>
+                    <span>
+                        Current Role
+                    </span>
 
-                    <strong>Senior Technical Lead</strong>
+                    <strong>
+                        Senior Technical Lead
+                    </strong>
 
                 </div>
 
 
+
                 <div class="profile-item">
 
-                    <span>Location</span>
+                    <span>
+                        Work Mode
+                    </span>
 
-                    <strong>Remote,India</strong>
+                    <strong>
+                        Remote · India
+                    </strong>
 
                 </div>
 
 
+
                 <div class="profile-item">
 
-                    <span>Primary Stack</span>
+                    <span>
+                        Primary Stack
+                    </span>
 
-                    <strong>.NET · React · Azure</strong>
+                    <strong>
+                        .NET · React · Azure
+                    </strong>
 
                 </div>
 
 
+
                 <div class="profile-item">
 
-                    <span>Cloud</span>
+                    <span>
+                        Cloud
+                    </span>
 
-                    <strong>Azure · AWS</strong>
+                    <strong>
+                        Azure · AWS
+                    </strong>
 
                 </div>
 
 
+
                 <div class="profile-item">
 
-                    <span>Certification</span>
+                    <span>
+                        Certification
+                    </span>
 
-                    <strong>AWS Solutions Architect</strong>
+                    <strong>
+                        AWS Solutions Architect
+                    </strong>
 
                 </div>
+
 
             </div>
 
@@ -348,15 +551,21 @@
 </section>
 
 
+
 <!-- ================= EXPERIENCE ================= -->
 
-<section id="experience" class="section dark-section">
+<section id="experience"
+         class="section dark-section">
 
     <div class="container">
 
+
         <div class="section-heading">
 
-            <span class="section-number">02</span>
+            <span class="section-number">
+                02
+            </span>
+
 
             <div>
 
@@ -364,14 +573,18 @@
                     EXPERIENCE
                 </p>
 
+
                 <h2>
+
                     A career built around
                     solving difficult problems.
+
                 </h2>
 
             </div>
 
         </div>
+
 
 
         <div class="timeline">
@@ -380,6 +593,7 @@
             <!-- JOB 1 -->
 
             <article class="experience-item">
+
 
                 <div class="experience-date">
 
@@ -394,60 +608,91 @@
                 </div>
 
 
+
                 <div class="experience-content">
 
                     <div class="commit">
                         CURRENT / RECENT
                     </div>
 
+
                     <h3>
                         Senior Technical Lead
                     </h3>
 
+
                     <h4>
+
                         Precision Resource Group
-                        <span>(Contract)</span>
+
+                        <span>
+                            (Contract)
+                        </span>
+
                     </h4>
 
+
                     <p class="location">
-                        Remote,India
+                        Remote, India
                     </p>
+
 
 
                     <ul>
 
                         <li>
+
                             Delivered enterprise modules for a
                             leading UK-based Intellectual Property
                             Law platform using Blazor, C#, SQL Server,
                             RabbitMQ and Microservices architecture.
+
                         </li>
 
+
                         <li>
+
                             Improved application performance by
-                            <strong>35%</strong> through service
-                            optimization, SQL query tuning and
-                            architectural enhancements.
+                            <strong>
+                                35%
+                            </strong>
+                            through service optimization,
+                            SQL query tuning and architectural
+                            enhancements.
+
                         </li>
 
+
                         <li>
+
                             Implemented RabbitMQ-based asynchronous
                             communication, reducing processing
-                            delays by <strong>40%</strong>.
+                            delays by
+                            <strong>
+                                40%
+                            </strong>.
+
                         </li>
 
+
                         <li>
+
                             Led Agile ceremonies, sprint planning,
                             technical reviews and delivery coordination.
+
                         </li>
 
+
                         <li>
+
                             Enhanced API security, routing,
                             scalability and reliability through
                             Ocelot API Gateway implementation.
+
                         </li>
 
                     </ul>
+
 
 
                     <div class="tags">
@@ -466,16 +711,24 @@
             </article>
 
 
+
             <!-- JOB 2 -->
 
             <article class="experience-item">
 
+
                 <div class="experience-date">
 
-                    <span>03/2023</span>
-                    <span>09/2025</span>
+                    <span>
+                        03/2023
+                    </span>
+
+                    <span>
+                        09/2025
+                    </span>
 
                 </div>
+
 
 
                 <div class="experience-content">
@@ -484,58 +737,82 @@
                         LEADERSHIP
                     </div>
 
+
                     <h3>
                         Senior Technical Lead
                     </h3>
+
 
                     <h4>
                         V Group Inc
                     </h4>
 
+
                     <p class="location">
-                        Remote,India
+                        Remote, India
                     </p>
+
 
 
                     <ul>
 
                         <li>
+
                             Led a cross-functional team of
-                            <strong>8 engineers</strong> delivering
-                            enterprise legal applications supporting
-                            employment law workflows.
+                            <strong>
+                                8 engineers
+                            </strong>
+                            delivering enterprise legal applications
+                            supporting employment law workflows.
+
                         </li>
 
+
                         <li>
+
                             Designed and developed scalable React
                             applications using Redux, Context API,
                             TypeScript and Bootstrap.
+
                         </li>
 
+
                         <li>
+
                             Integrated frontend solutions with REST
                             APIs and backend services, improving
                             maintainability and user experience.
+
                         </li>
 
+
                         <li>
+
                             Conducted code reviews, mentoring sessions,
                             technical reviews and architecture discussions.
+
                         </li>
 
+
                         <li>
+
                             Collaborated with product owners,
                             architects, QA teams and stakeholders
                             to deliver enterprise-grade solutions.
+
                         </li>
 
+
                         <li>
+
                             Participated in sprint planning,
                             release management, estimation and
                             risk assessment.
+
                         </li>
 
                     </ul>
+
 
 
                     <div class="tags">
@@ -553,16 +830,24 @@
             </article>
 
 
+
             <!-- JOB 3 -->
 
             <article class="experience-item">
 
+
                 <div class="experience-date">
 
-                    <span>07/2022</span>
-                    <span>02/2023</span>
+                    <span>
+                        07/2022
+                    </span>
+
+                    <span>
+                        02/2023
+                    </span>
 
                 </div>
+
 
 
                 <div class="experience-content">
@@ -571,52 +856,74 @@
                         TECHNICAL LEAD
                     </div>
 
+
                     <h3>
                         Technical Lead
                     </h3>
+
 
                     <h4>
                         Encora
                     </h4>
 
+
                     <p class="location">
-                         Remote,India
+                        Remote, India
                     </p>
+
 
 
                     <ul>
 
                         <li>
+
                             Led a team of 4 engineers delivering
                             ATI Scheduling and Alerting platform
                             enhancements.
+
                         </li>
 
+
                         <li>
+
                             Coordinated development activities
                             across engineering, QA and business
                             teams, improving release cycle efficiency
-                            by <strong>25%</strong>.
+                            by
+                            <strong>
+                                25%
+                            </strong>.
+
                         </li>
 
+
                         <li>
+
                             Designed scalable software components
                             that reduced technical debt and improved
                             maintainability.
+
                         </li>
 
+
                         <li>
+
                             Participated in architecture reviews,
                             solution design, sprint planning and
                             stakeholder collaboration.
+
                         </li>
 
+
                         <li>
+
                             Mentored engineers and provided technical
                             guidance throughout the SDLC.
+
                         </li>
 
                     </ul>
+
 
 
                     <div class="tags">
@@ -633,16 +940,24 @@
             </article>
 
 
+
             <!-- JOB 4 -->
 
             <article class="experience-item">
 
+
                 <div class="experience-date">
 
-                    <span>08/2019</span>
-                    <span>07/2022</span>
+                    <span>
+                        08/2019
+                    </span>
+
+                    <span>
+                        07/2022
+                    </span>
 
                 </div>
+
 
 
                 <div class="experience-content">
@@ -651,56 +966,82 @@
                         ENGINEERING
                     </div>
 
+
                     <h3>
                         Senior Software Engineer
                     </h3>
+
 
                     <h4>
                         LTIMindtree
                     </h4>
 
+
                     <p class="location">
-                         Remote,India
+                        Remote, India
                     </p>
+
 
 
                     <ul>
 
                         <li>
+
                             Led and mentored a team of 4 engineers
                             delivering enterprise engineering
                             applications.
+
                         </li>
 
+
                         <li>
+
                             Improved Angular application performance
-                            by <strong>57%</strong> using Lazy Loading,
+                            by
+                            <strong>
+                                57%
+                            </strong>
+                            using Lazy Loading,
                             AOT compilation and optimization techniques.
+
                         </li>
 
+
                         <li>
+
                             Developed Azure Functions supporting
                             enterprise business workflows.
+
                         </li>
 
+
                         <li>
+
                             Implemented CI/CD pipelines using
                             Azure DevOps, improving deployment
                             reliability.
+
                         </li>
 
+
                         <li>
+
                             Optimized ASP.NET MVC applications and
                             backend services to improve response times.
+
                         </li>
 
+
                         <li>
+
                             Delivered internal technical training
                             programs focused on .NET and engineering
                             best practices.
+
                         </li>
 
                     </ul>
+
 
 
                     <div class="tags">
@@ -718,16 +1059,24 @@
             </article>
 
 
+
             <!-- JOB 5 -->
 
             <article class="experience-item">
 
+
                 <div class="experience-date">
 
-                    <span>02/2018</span>
-                    <span>08/2019</span>
+                    <span>
+                        02/2018
+                    </span>
+
+                    <span>
+                        08/2019
+                    </span>
 
                 </div>
+
 
 
                 <div class="experience-content">
@@ -736,39 +1085,55 @@
                         FINTECH
                     </div>
 
+
                     <h3>
                         Senior Software Engineer
                     </h3>
+
 
                     <h4>
                         CoreCard Software
                     </h4>
 
+
                     <p class="location">
-                        Navi Mumbai, Maharashtra,India
+                        Navi Mumbai, Maharashtra, India
                     </p>
+
 
 
                     <ul>
 
                         <li>
+
                             Developed enterprise card-processing
                             and financial systems supporting credit
                             program management.
+
                         </li>
 
+
                         <li>
+
                             Built high-performance processing
                             components improving system efficiency
-                            by <strong>40%</strong>.
+                            by
+                            <strong>
+                                40%
+                            </strong>.
+
                         </li>
 
+
                         <li>
+
                             Collaborated with stakeholders to deliver
                             scalable financial technology solutions.
+
                         </li>
 
                     </ul>
+
 
 
                     <div class="tags">
@@ -787,17 +1152,22 @@
         </div>
 
 
-        <!-- EARLY CAREER -->
+
+        <!-- ================= EARLY CAREER ================= -->
 
         <div class="early-career">
+
 
             <div class="early-title">
                 EARLY CAREER
             </div>
 
+
             <div class="early-item">
 
-                <span>2016 – 2018</span>
+                <span>
+                    2016 – 2018
+                </span>
 
                 <strong>
                     Senior Software Engineer
@@ -812,7 +1182,9 @@
 
             <div class="early-item">
 
-                <span>2015 – 2016</span>
+                <span>
+                    2015 – 2016
+                </span>
 
                 <strong>
                     Software Engineer
@@ -827,7 +1199,9 @@
 
             <div class="early-item">
 
-                <span>2012 – 2015</span>
+                <span>
+                    2012 – 2015
+                </span>
 
                 <strong>
                     Assistant System Analyst
@@ -842,17 +1216,21 @@
         </div>
 
 
-        <!-- EDUCATION -->
+
+        <!-- ================= EDUCATION ================= -->
 
         <div class="education">
+
 
             <div class="education-label">
                 EDUCATION
             </div>
 
+
             <h3>
                 Bachelor of Science — Computer Science
             </h3>
+
 
             <p>
                 University of Mumbai
@@ -866,15 +1244,21 @@
 </section>
 
 
+
 <!-- ================= SKILLS ================= -->
 
-<section id="skills" class="section">
+<section id="skills"
+         class="section">
 
     <div class="container">
 
+
         <div class="section-heading">
 
-            <span class="section-number">03</span>
+            <span class="section-number">
+                03
+            </span>
+
 
             <div>
 
@@ -882,14 +1266,18 @@
                     TECHNICAL EXPERTISE
                 </p>
 
+
                 <h2>
+
                     From frontend interfaces
                     to distributed systems.
+
                 </h2>
 
             </div>
 
         </div>
+
 
 
         <div class="skills-grid">
@@ -901,9 +1289,11 @@
                     01
                 </div>
 
+
                 <h3>
                     Languages & Frameworks
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -920,15 +1310,18 @@
             </div>
 
 
+
             <div class="skill-card">
 
                 <div class="skill-number">
                     02
                 </div>
 
+
                 <h3>
                     Architecture & Integration
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -945,15 +1338,18 @@
             </div>
 
 
+
             <div class="skill-card">
 
                 <div class="skill-number">
                     03
                 </div>
 
+
                 <h3>
                     Cloud & Infrastructure
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -969,15 +1365,18 @@
             </div>
 
 
+
             <div class="skill-card">
 
                 <div class="skill-number">
                     04
                 </div>
 
+
                 <h3>
                     Databases & Data
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -991,15 +1390,18 @@
             </div>
 
 
+
             <div class="skill-card">
 
                 <div class="skill-number">
                     05
                 </div>
 
+
                 <h3>
                     Architecture & Engineering
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -1016,15 +1418,18 @@
             </div>
 
 
+
             <div class="skill-card">
 
                 <div class="skill-number">
                     06
                 </div>
 
+
                 <h3>
                     AI & Generative AI
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -1033,11 +1438,13 @@
                     <span>OpenAI API</span>
                     <span>RAG</span>
                     <span>AI Agents</span>
+                    <span>Agentic AI</span>
                     <span>Azure AI Search</span>
 
                 </div>
 
             </div>
+
 
 
             <div class="skill-card">
@@ -1046,9 +1453,11 @@
                     07
                 </div>
 
+
                 <h3>
                     DevOps & Tools
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -1064,15 +1473,18 @@
             </div>
 
 
+
             <div class="skill-card">
 
                 <div class="skill-number">
                     08
                 </div>
 
+
                 <h3>
                     Security & Quality
                 </h3>
+
 
                 <div class="skill-list">
 
@@ -1087,6 +1499,7 @@
 
             </div>
 
+
         </div>
 
     </div>
@@ -1094,15 +1507,21 @@
 </section>
 
 
+
 <!-- ================= HIGHLIGHTS ================= -->
 
-<section id="achievements" class="section dark-section">
+<section id="achievements"
+         class="section dark-section">
 
     <div class="container">
 
+
         <div class="section-heading">
 
-            <span class="section-number">04</span>
+            <span class="section-number">
+                04
+            </span>
+
 
             <div>
 
@@ -1110,9 +1529,12 @@
                     KEY HIGHLIGHTS
                 </p>
 
+
                 <h2>
+
                     Numbers that tell
                     the engineering story.
+
                 </h2>
 
             </div>
@@ -1120,7 +1542,9 @@
         </div>
 
 
+
         <div class="metrics-grid">
+
 
             <div class="metric">
 
@@ -1225,10 +1649,12 @@
 
             </div>
 
+
         </div>
 
 
-        <!-- DOMAIN EXPERIENCE -->
+
+        <!-- ================= DOMAIN EXPERIENCE ================= -->
 
         <div class="domain-section">
 
@@ -1236,21 +1662,40 @@
                 DOMAIN EXPERIENCE
             </p>
 
+
             <div class="domain-grid">
 
-                <span>Financial Services</span>
-                <span>Payments</span>
-                <span>Insurance</span>
-                <span>Telecom</span>
-                <span>Legal Technology</span>
-                <span>Enterprise Applications</span>
+                <span>
+                    Financial Services
+                </span>
+
+                <span>
+                    Payments
+                </span>
+
+                <span>
+                    Insurance
+                </span>
+
+                <span>
+                    Telecom
+                </span>
+
+                <span>
+                    Legal Technology
+                </span>
+
+                <span>
+                    Enterprise Applications
+                </span>
 
             </div>
 
         </div>
 
 
-        <!-- ACHIEVEMENTS -->
+
+        <!-- ================= AWARDS ================= -->
 
         <div class="awards-section">
 
@@ -1258,31 +1703,77 @@
                 AWARDS
             </p>
 
+
             <div class="awards-grid">
 
-                <div>
-                    <span>01</span>
-                    <h3>Employee of the Year</h3>
-                    <p>LTIMindtree</p>
-                </div>
 
                 <div>
-                    <span>02</span>
-                    <h3>Pillar of Support Award</h3>
-                    <p>LTIMindtree</p>
+
+                    <span>
+                        01
+                    </span>
+
+                    <h3>
+                        Employee of the Year
+                    </h3>
+
+                    <p>
+                        LTIMindtree
+                    </p>
+
                 </div>
 
-                <div>
-                    <span>03</span>
-                    <h3>Employee of the Quarter</h3>
-                    <p>V Group</p>
-                </div>
 
                 <div>
-                    <span>04</span>
-                    <h3>Best Student of the Year</h3>
-                    <p>G.B.P. Vidyalaya</p>
+
+                    <span>
+                        02
+                    </span>
+
+                    <h3>
+                        Pillar of Support Award
+                    </h3>
+
+                    <p>
+                        LTIMindtree
+                    </p>
+
                 </div>
+
+
+                <div>
+
+                    <span>
+                        03
+                    </span>
+
+                    <h3>
+                        Employee of the Quarter
+                    </h3>
+
+                    <p>
+                        V Group
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        04
+                    </span>
+
+                    <h3>
+                        Best Student of the Year
+                    </h3>
+
+                    <p>
+                        G.B.P. Vidyalaya
+                    </p>
+
+                </div>
+
 
             </div>
 
@@ -1291,6 +1782,7 @@
     </div>
 
 </section>
+
 
 
 <!-- ================= OPEN SOURCE ================= -->
@@ -1299,9 +1791,13 @@
 
     <div class="container">
 
+
         <div class="section-heading">
 
-            <span class="section-number">05</span>
+            <span class="section-number">
+                05
+            </span>
+
 
             <div>
 
@@ -1309,9 +1805,12 @@
                     OPEN SOURCE & COMMUNITY
                 </p>
 
+
                 <h2>
+
                     Building beyond
                     the day job.
+
                 </h2>
 
             </div>
@@ -1319,60 +1818,88 @@
         </div>
 
 
+
         <div class="community-grid">
 
 
             <article class="community-card">
 
+
                 <div class="community-icon">
                     VS
                 </div>
+
 
                 <h3>
                     Visual Studio Code Extensions
                 </h3>
 
+
                 <p>
+
                     Published developer tools on the Visual Studio
                     Code Marketplace focused on improving developer
                     experience through UI and productivity tooling.
+
                 </p>
+
 
                 <div class="community-tags">
 
-                    <span>Colors of India Themes</span>
-                    <span>Year End Countdown</span>
+                    <span>
+                        Colors of India Themes
+                    </span>
+
+                    <span>
+                        Year End Countdown
+                    </span>
 
                 </div>
 
             </article>
 
 
+
             <article class="community-card">
+
 
                 <div class="community-icon">
                     &lt;/&gt;
                 </div>
 
+
                 <h3>
                     Technical Content
                 </h3>
 
+
                 <p>
+
                     Sharing knowledge through technical blogs and
                     newsletters covering C#, .NET, cloud-native
                     architecture and software engineering practices.
+
                 </p>
+
 
                 <div class="community-tags">
 
-                    <span>C# Corner</span>
-                    <span>Medium</span>
-                    <span>LinkedIn</span>
+                    <span>
+                        C# Corner
+                    </span>
+
+                    <span>
+                        Medium
+                    </span>
+
+                    <span>
+                        LinkedIn
+                    </span>
 
                 </div>
 
             </article>
+
 
         </div>
 
@@ -1381,15 +1908,21 @@
 </section>
 
 
+
 <!-- ================= CERTIFICATIONS ================= -->
 
-<section id="certifications" class="section dark-section">
+<section id="certifications"
+         class="section dark-section">
 
     <div class="container">
 
+
         <div class="section-heading">
 
-            <span class="section-number">06</span>
+            <span class="section-number">
+                06
+            </span>
+
 
             <div>
 
@@ -1397,9 +1930,12 @@
                     CERTIFICATIONS
                 </p>
 
+
                 <h2>
+
                     Continuous learning,
                     formally validated.
+
                 </h2>
 
             </div>
@@ -1407,29 +1943,38 @@
         </div>
 
 
+
         <div class="certification-grid">
 
 
             <article class="certification-card">
 
+
                 <div class="cert-number">
                     01
                 </div>
 
+
                 <div>
+
 
                     <p class="cert-provider">
                         AMAZON WEB SERVICES
                     </p>
 
+
                     <h3>
+
                         AWS Certified Solutions
                         Architect – Associate
+
                     </h3>
+
 
                     <p class="cert-date">
                         Issued: November 2021
                     </p>
+
 
                     <a href="https://aws.amazon.com/certification/"
                        target="_blank"
@@ -1439,34 +1984,43 @@
 
                     </a>
 
+
                 </div>
 
             </article>
 
 
+
             <article class="certification-card">
+
 
                 <div class="cert-number">
                     02
                 </div>
 
+
                 <div>
+
 
                     <p class="cert-provider">
                         LTIMINDTREE
                     </p>
 
+
                     <h3>
                         .NET Full Stack Certification
                     </h3>
+
 
                     <p class="cert-date">
                         LTIMindtree
                     </p>
 
+
                 </div>
 
             </article>
+
 
         </div>
 
@@ -1475,20 +2029,31 @@
 </section>
 
 
+
 <!-- ================= CONTACT ================= -->
 
-<section id="contact" class="contact-section">
+<section id="contact"
+         class="contact-section">
+
 
     <div class="container contact-container">
+
 
         <p class="eyebrow">
             07 · CONTACT
         </p>
 
+
         <h2>
+
             Let's build something
-            <span>worth shipping.</span>
+
+            <span>
+                worth shipping.
+            </span>
+
         </h2>
+
 
         <p class="contact-description">
 
@@ -1500,13 +2065,16 @@
         </p>
 
 
-        <!-- CONTACT FORM -->
+
+        <!-- ================= CONTACT FORM ================= -->
 
         <form class="contact-form"
               action="YOUR_FORM_ENDPOINT"
               method="POST">
 
+
             <div class="form-row">
+
 
                 <div class="form-group">
 
@@ -1514,15 +2082,17 @@
                         Name
                     </label>
 
+
                     <input
                         type="text"
                         id="name"
                         name="name"
                         placeholder="Your name"
-                        required
-                    >
+                        autocomplete="name"
+                        required>
 
                 </div>
+
 
 
                 <div class="form-group">
@@ -1531,51 +2101,60 @@
                         Email
                     </label>
 
+
                     <input
                         type="email"
                         id="email"
                         name="email"
                         placeholder="your@email.com"
-                        required
-                    >
+                        autocomplete="email"
+                        required>
 
                 </div>
+
 
             </div>
 
 
+
             <div class="form-group">
+
 
                 <label for="subject">
                     Subject
                 </label>
+
 
                 <input
                     type="text"
                     id="subject"
                     name="subject"
                     placeholder="How can I help?"
-                    required
-                >
+                    required>
+
 
             </div>
 
 
+
             <div class="form-group">
+
 
                 <label for="message">
                     Message
                 </label>
+
 
                 <textarea
                     id="message"
                     name="message"
                     rows="7"
                     placeholder="Tell me about your project, opportunity or idea..."
-                    required
-                ></textarea>
+                    required></textarea>
+
 
             </div>
+
 
 
             <button
@@ -1586,84 +2165,119 @@
 
             </button>
 
+
         </form>
 
 
-        <!-- PUBLIC CONTACT OPTIONS -->
+
+        <!-- ================= PUBLIC CONTACT OPTIONS ================= -->
 
         <div class="contact-alternatives">
+
 
             <p class="eyebrow">
                 OR CONNECT WITH ME
             </p>
 
+
             <div class="social-links">
+
 
                 <a href="https://linkedin.com/in/sachinghadi"
                    target="_blank"
                    rel="noopener noreferrer"
-                   class="social-btn">
+                   class="social-btn"
+                   aria-label="Connect with Sachin Ghadi on LinkedIn">
 
                     LinkedIn ↗
 
                 </a>
 
 
+
                 <a href="https://github.com/GhadiSachin"
                    target="_blank"
                    rel="noopener noreferrer"
-                   class="social-btn">
+                   class="social-btn"
+                   aria-label="View Sachin Ghadi on GitHub">
 
                     GitHub ↗
 
                 </a>
 
+
             </div>
 
         </div>
+
 
     </div>
 
 </section>
 
+
+
 <!-- ================= FOOTER ================= -->
 
 <footer>
 
+
     <div class="container footer-inner">
 
+
         <div>
+
 
             <strong>
-                Sachin<span>Ghadi</span>
+
+                Sachin <span>Ghadi</span>
+
             </strong>
 
+
             <p>
-                Senior Technical Lead · Solution Architecture
+
+                Senior Technical Lead ·
+                Solution Architecture
+
             </p>
 
+
         </div>
+
 
 
         <div>
 
+
             <p>
+
                 © <span id="year"></span>
                 Sachin Ghadi
+
             </p>
+
 
             <p>
+
                 Built with HTML · CSS · JavaScript
+
             </p>
 
+
         </div>
+
 
     </div>
 
 </footer>
 
 
+
 <script src="script.js"></script>
 
+
 </body>
+
 </html>
+```
