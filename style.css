@@ -415,6 +415,41 @@ button {
     color:
         var(--green);
 }
+/* ================= 3D PORTFOLIO LINK ================= */
+
+.portfolio-3d-link {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    margin-top: 14px;
+
+    color: var(--muted);
+
+    font-family:
+        "DM Mono",
+        monospace;
+
+    font-size: 10px;
+
+    letter-spacing: .3px;
+
+    transition:
+        color .25s ease,
+        transform .25s ease;
+}
+
+
+.portfolio-3d-link:hover {
+
+    color: var(--green);
+
+    transform:
+        translateX(3px);
+}
 
 
 /* ================= TERMINAL ================= */
