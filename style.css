@@ -423,19 +423,21 @@ button {
 
     align-items: center;
 
-    gap: 6px;
+    gap: 7px;
 
-    margin-top: 14px;
+    margin-top: 24px;
 
-    color: var(--muted);
+    color: var(--green);
 
     font-family:
         "DM Mono",
         monospace;
 
-    font-size: 10px;
+    font-size: 11px;
 
-    letter-spacing: .3px;
+    font-weight: 600;
+
+    letter-spacing: .4px;
 
     transition:
         color .25s ease,
@@ -445,11 +447,12 @@ button {
 
 .portfolio-3d-link:hover {
 
-    color: var(--green);
+    color: var(--green-light);
 
     transform:
-        translateX(3px);
+        translateX(4px);
 }
+
 
 
 /* ================= TERMINAL ================= */
